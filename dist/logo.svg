@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" fill="none">
+  <defs>
+    <linearGradient id="logoFishGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0879C9" />
+      <stop offset="100%" stop-color="#20C5E8" />
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#20C5E8" />
+      <stop offset="100%" stop-color="#0879C9" />
+    </linearGradient>
+  </defs>
+
+  <!-- Emblem Icon Container -->
+  <g transform="translate(10, 8)">
+    <!-- Dark navy backdrop badge with rounded squircle -->
+    <rect width="84" height="84" rx="20" fill="#071D3A" />
+    <!-- Dynamic Fish and Hook Combination -->
+    <path d="M 24 28 C 34 16, 62 18, 68 32 C 72 42, 64 56, 49 60 C 40 62, 34 56, 34 48 C 34 40, 44 38, 48 42" 
+          stroke="url(#logoFishGrad)" stroke-width="7" stroke-linecap="round" fill="none" />
+    <!-- Hook Ring / Eye -->
+    <circle cx="24" cy="28" r="4.5" fill="#20C5E8" />
+    <!-- Fish Fin Accent -->
+    <path d="M 48 60 C 58 66, 68 62, 72 55" 
+          stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.9" />
+    <!-- Dynamic Wave Base -->
+    <path d="M 18 69 C 28 65, 36 72, 47 69 C 58 66, 66 71, 70 69" 
+          stroke="#20C5E8" stroke-width="3.5" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(108, 22)">
+    <!-- FISHTARA Title -->
+    <text x="0" y="38" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="34" letter-spacing="2.5" fill="#071D3A">
+      FISH<tspan fill="#0879C9">TARA</tspan>
+    </text>
+    <!-- Subtitle: PEMANCINGAN NUSANTARA -->
+    <text x="2" y="58" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="11.5" letter-spacing="4" fill="#0879C9">
+      PEMANCINGAN NUSANTARA
+    </text>
+    <rect x="2" y="66" width="36" height="3" rx="1.5" fill="#20C5E8" />
+  </g>
+</svg>

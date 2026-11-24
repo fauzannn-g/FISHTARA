@@ -1,0 +1,272 @@
+
+
+Bertindaklah sebagai Senior Full Stack Developer, UI/UX Designer, dan Web Developer profesional.
+
+Saya ingin membangun sebuah website bisnis bernama **FISHTARA PEMANCINGAN NUSANTARA**, yaitu bisnis pemancingan modern yang menggabungkan aktivitas memancing, rekreasi, kuliner, hiburan, dan komunitas.
+
+Website harus memiliki desain profesional, modern, elegan, menarik, mudah digunakan oleh semua kalangan, serta memiliki identitas visual yang kuat.
+
+## 1. IDENTITAS BRAND
+
+Nama brand: FISHTARA
+
+Nama lengkap: FISHTARA PEMANCINGAN NUSANTARA
+
+Instagram resmi: @fishtara.official
+
+Identitas warna:
+- Navy: #071D3A
+- Ocean Blue: #0879C9
+- Cyan: #20C5E8
+- White: #FFFFFF
+
+Gunakan kombinasi warna tersebut secara konsisten.
+
+Gunakan logo FISHTARA yang telah disediakan sebagai logo utama website. Jangan mengubah bentuk, proporsi, warna, atau identitas logo tanpa persetujuan.
+
+## 2. KONSEP DESAIN WEBSITE
+
+Buat website dengan konsep Modern Fishing Park.
+
+Karakter desain:
+- Modern dan premium.
+- Elegan tetapi tidak terlalu formal.
+- Minimalis dan tidak ramai.
+- Dominasi warna biru dan putih.
+- Memiliki visual alam, kolam ikan, dan aktivitas memancing.
+- Menggunakan animasi ringan dan transisi yang halus.
+- Memiliki tampilan profesional seperti website bisnis wisata modern.
+
+Hindari:
+- Tampilan seperti template website gratis.
+- Warna terlalu banyak.
+- Efek animasi berlebihan.
+- Elemen yang terlalu ramai.
+- Font yang sulit dibaca.
+- Layout yang membingungkan.
+
+## 3. STRUKTUR HALAMAN WEBSITE
+
+### A. Homepage
+
+Buat halaman utama yang menarik dengan:
+
+1. Navbar:
+   - Logo FISHTARA.
+   - Beranda.
+   - Tentang Kami.
+   - Fasilitas.
+   - Galeri.
+   - Paket Memancing.
+   - Kontak.
+   - Tombol Reservasi.
+
+2. Hero Section:
+   - Gunakan foto kolam pemancingan yang menarik dan berkualitas tinggi.
+   - Tampilkan headline:
+     "Temukan Pengalaman Memancing Terbaik Bersama FISHTARA."
+   - Deskripsi singkat tentang FISHTARA.
+   - Tombol "Jelajahi FISHTARA".
+   - Tombol "Reservasi Sekarang".
+
+3. Tentang FISHTARA:
+   - Perkenalan bisnis.
+   - Visi dan misi.
+   - Keunggulan FISHTARA.
+
+4. Fasilitas:
+   - Kolam pemancingan.
+   - Gazebo dan tempat bersantai.
+   - Area keluarga.
+   - Cafe dan kuliner.
+   - Area parkir.
+   - Penyewaan alat pancing.
+
+5. Paket Memancing:
+   - Tampilkan daftar paket.
+   - Harga paket.
+   - Durasi memancing.
+   - Fasilitas yang didapat.
+   - Tombol reservasi.
+
+   Gunakan data sementara yang mudah diganti melalui dashboard. Jangan mengarang harga sebagai harga resmi.
+
+6. Galeri:
+   - Foto kolam.
+   - Aktivitas pengunjung.
+   - Hasil tangkapan ikan.
+   - Suasana pemancingan.
+   - Fasilitas.
+
+7. Testimoni:
+   - Tampilkan ulasan pengunjung.
+   - Desain menggunakan card yang modern.
+   - Sediakan data contoh yang diberi label sebagai konten demo.
+
+8. Instagram Section:
+   - Tampilkan identitas akun Instagram resmi.
+   - Username: @fishtara.official.
+   - Tampilkan tombol "Ikuti Instagram Kami".
+   - Gunakan tautan https://www.instagram.com/fishtara.official/
+   - Sediakan area untuk menampilkan postingan Instagram.
+
+9. CTA:
+   "Saatnya Menikmati Pengalaman Memancing yang Berbeda."
+   - Tombol reservasi.
+   - Tombol hubungi pengelola.
+
+10. Footer:
+   - Logo FISHTARA.
+   - Deskripsi bisnis.
+   - Navigasi.
+   - Informasi kontak.
+   - Alamat lokasi.
+   - Instagram.
+   - Copyright FISHTARA.
+
+### B. Halaman Tentang Kami
+
+Buat halaman khusus yang menjelaskan:
+- Profil FISHTARA.
+- Sejarah bisnis.
+- Visi dan misi.
+- Nilai dan konsep bisnis.
+- Keunggulan FISHTARA.
+
+### C. Halaman Fasilitas
+
+Tampilkan fasilitas dengan foto, nama, dan deskripsi masing-masing.
+
+### D. Halaman Paket Memancing
+
+Tampilkan paket memancing secara terstruktur.
+
+Setiap paket memiliki:
+- Nama paket.
+- Harga.
+- Durasi.
+- Fasilitas.
+- Ketentuan.
+- Tombol reservasi.
+
+### E. Halaman Galeri
+
+Buat galeri foto dengan kategori:
+- Kolam.
+- Ikan.
+- Aktivitas memancing.
+- Fasilitas.
+- Suasana malam.
+
+Gunakan layout masonry atau grid modern.
+
+### F. Halaman Kontak
+
+Tampilkan:
+- Informasi kontak.
+- Alamat lokasi.
+- Google Maps jika lokasi sudah tersedia.
+- Instagram resmi.
+- Tombol WhatsApp jika nomor resmi sudah tersedia.
+
+## 4. INTEGRASI INSTAGRAM
+
+Integrasikan website dengan akun Instagram resmi:
+
+https://www.instagram.com/fishtara.official/
+
+Ketentuan:
+1. Tombol Instagram harus mengarah ke akun resmi.
+2. Buat section khusus Instagram pada homepage.
+3. Siapkan komponen untuk menampilkan postingan Instagram terbaru.
+4. Jika memungkinkan, gunakan Instagram oEmbed atau Instagram Graph API sesuai ketentuan resmi Meta.
+5. Jangan menggunakan scraping Instagram atau metode ilegal untuk mengambil postingan.
+6. Jika membutuhkan access token, App ID, atau konfigurasi Meta, siapkan environment variable dan dokumentasikan cara mengaturnya.
+7. Jika API belum tersedia, tampilkan galeri foto yang dapat dikelola melalui website dan tombol menuju Instagram.
+8. Jangan menampilkan data Instagram palsu seolah-olah merupakan postingan asli.
+
+## 5. FITUR RESERVASI
+
+Buat sistem reservasi yang memungkinkan pengunjung:
+- Memilih tanggal kunjungan.
+- Memilih paket memancing.
+- Memasukkan jumlah pengunjung.
+- Mengisi nama dan nomor WhatsApp.
+- Mengirim permintaan reservasi.
+- Mendapatkan ringkasan reservasi.
+
+Jika belum tersedia backend, buat UI dan alur demonstrasi terlebih dahulu. Jangan mengklaim reservasi berhasil sebelum benar-benar tersimpan atau dikonfirmasi oleh pengelola.
+
+## 6. RESPONSIVE DESIGN
+
+Website wajib responsif untuk:
+- Desktop.
+- Laptop.
+- Tablet.
+- Smartphone.
+
+Pastikan:
+- Navbar berubah menjadi mobile menu.
+- Gambar tidak terpotong secara tidak wajar.
+- Tombol mudah ditekan.
+- Teks mudah dibaca.
+- Layout tidak mengalami horizontal scrolling.
+- Semua halaman konsisten.
+
+## 7. SEO DAN PERFORMA
+
+Terapkan:
+- SEO title dan meta description.
+- Open Graph untuk berbagi tautan.
+- Struktur heading yang benar.
+- Alt text gambar.
+- Optimasi ukuran gambar.
+- Lazy loading.
+- Loading state.
+- Halaman 404.
+- Favicon menggunakan ikon FISHTARA.
+
+## 8. KUALITAS DAN KEAMANAN
+
+- Pastikan seluruh navigasi berfungsi.
+- Tidak boleh ada tombol yang hanya menjadi pajangan.
+- Validasi seluruh formulir.
+- Gunakan sanitasi input.
+- Jangan menyimpan credential di frontend.
+- Gunakan environment variable untuk API key.
+- Pastikan tidak merusak fungsi yang sudah ada.
+- Gunakan komponen reusable.
+- Hindari kode duplikat yang tidak diperlukan.
+
+## 9. ATURAN PENGERJAAN AI AGENT
+
+Sebelum melakukan perubahan:
+
+1. Periksa seluruh struktur project.
+2. Identifikasi framework, bahasa pemrograman, dan dependency yang digunakan.
+3. Periksa halaman dan komponen yang sudah tersedia.
+4. Pertahankan teknologi dan struktur project yang sudah digunakan.
+5. Jangan mengganti framework tanpa persetujuan.
+6. Jangan menghapus fungsi yang sudah berjalan.
+7. Buat rencana pengerjaan sebelum implementasi.
+8. Kerjakan secara bertahap.
+9. Jalankan website dan lakukan pengujian.
+10. Perbaiki error yang ditemukan.
+
+Jangan hanya membuat tampilan visual. Pastikan setiap halaman, navigasi, formulir, dan fitur yang diimplementasikan benar-benar berfungsi.
+
+## 10. HASIL AKHIR
+
+Saya menginginkan website FISHTARA yang:
+- Memiliki identitas brand profesional.
+- Modern dan elegan.
+- Menarik calon pengunjung.
+- Mudah digunakan semua kalangan.
+- Terhubung dengan Instagram resmi.
+- Memiliki sistem reservasi.
+- Responsif di seluruh perangkat.
+- Mudah dikembangkan menjadi platform bisnis yang lebih besar.
+
+Prioritaskan kualitas UI/UX, konsistensi desain, fungsionalitas, dan kemudahan pengembangan jangka panjang.
+
+Mulai dengan menganalisis project, lalu buat rencana implementasi dan lanjutkan pengerjaan secara bertahap.
