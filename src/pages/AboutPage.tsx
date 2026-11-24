@@ -57,9 +57,16 @@ export const AboutPage: React.FC = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-6 -left-6 bg-brand-navy p-5 rounded-2xl text-white shadow-xl max-w-xs border border-brand-cyan/30 hidden sm:block">
-                <p className="text-xs font-semibold text-brand-cyan uppercase">Keluarga & Rekreasi</p>
-                <p className="text-xs text-slate-300 mt-1">Tempat memancing yang ramah anak, nyaman untuk orang tua, dan menyehatkan pikiran.</p>
+              <div className="absolute -bottom-6 -left-6 bg-brand-navy p-5 rounded-2xl text-white shadow-xl max-w-xs border border-brand-cyan/30 hidden sm:flex items-center gap-4">
+                <img
+                  src="/logo.png"
+                  alt="Logo FISHTARA"
+                  className="w-14 h-14 rounded-full bg-white object-contain p-1 ring-2 ring-brand-cyan shrink-0"
+                />
+                <div>
+                  <p className="text-xs font-semibold text-brand-cyan uppercase">Logo Resmi FISHTARA</p>
+                  <p className="text-xs text-slate-300 mt-0.5">Identitas otentik Pemancingan Nusantara modern & terpercaya.</p>
+                </div>
               </div>
             </div>
           </div>
