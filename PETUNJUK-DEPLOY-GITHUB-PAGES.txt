@@ -1,0 +1,26 @@
+FISHTARA - paket pembenahan GitHub Pages
+
+ISI PAKET
+- Source code aplikasi React + Vite
+- Konfigurasi Vite dengan base path /FISHTARA/
+- Workflow GitHub Actions untuk membangun dist/ dan menerbitkan ke GitHub Pages
+- .env.example sebagai contoh konfigurasi (tanpa file .env asli)
+
+YANG SENGAJA TIDAK DISERTAKAN
+- .git (riwayat repository lokal)
+- node_modules (dependensi akan dipasang oleh GitHub Actions)
+- dist/ dan docs/ (hasil build lama)
+- .env (file konfigurasi lokal; jangan unggah token/rahasia ke repository publik)
+
+CARA PAKAI
+1. Buka repository https://github.com/fauzannn-g/FISHTARA
+2. Upload/replace isi paket ini ke root repository (folder paling atas), termasuk folder .github.
+3. Commit perubahan ke branch main.
+4. Buka Settings > Pages dan pastikan Build and deployment > Source = GitHub Actions.
+5. Buka tab Actions. Tunggu workflow "Deploy FISHTARA to GitHub Pages" selesai dengan status hijau.
+6. Situs project Pages umumnya berada di https://fauzannn-g.github.io/FISHTARA/
+
+CATATAN
+- Jangan upload folder FISHTARA sebagai satu folder bersarang; file index.html, package.json, src/, dan .github/ harus berada di root repository.
+- Jika pernah memasukkan token asli ke .env lalu meng-commit-nya ke repository publik, cabut/rotasi token tersebut di penyedia layanan.
+- GitHub Pages hanya menjalankan frontend statis. Fitur yang membutuhkan server/backend harus memakai layanan backend terpisah.
