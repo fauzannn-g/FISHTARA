@@ -96,7 +96,7 @@ export const HeroSection: React.FC = () => {
             <div className="relative group">
               <div className="absolute -inset-4 bg-gradient-to-r from-brand-cyan to-brand-ocean rounded-full blur-2xl opacity-40 group-hover:opacity-70 transition duration-700 animate-pulse"></div>
               <img
-                src="/logo.png"
+                src={`${import.meta.env.BASE_URL}logo.png`}
                 alt="Logo Resmi FISHTARA Pemancingan Nusantara"
                 className="relative w-64 h-64 xl:w-72 xl:h-72 object-contain rounded-full bg-white shadow-2xl ring-4 ring-brand-cyan/70 p-2 transform group-hover:scale-105 transition-all duration-500"
               />

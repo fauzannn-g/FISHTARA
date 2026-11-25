@@ -35,7 +35,7 @@ export const Logo: React.FC<LogoProps> = ({
       {/* Official Circular Logo Badge */}
       <div className="relative shrink-0">
         <img 
-          src="/logo.png" 
+          src={`${import.meta.env.BASE_URL}logo.png`} 
           alt="Logo Resmi FISHTARA Pemancingan Nusantara" 
           className={`${imgDimensions} object-contain rounded-full bg-white shadow-md shadow-brand-ocean/30 ring-2 ring-brand-cyan/60 p-0.5 group-hover:scale-105 group-hover:ring-brand-cyan transition-all duration-300`}
         />
